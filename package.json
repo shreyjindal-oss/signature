@@ -1,0 +1,16 @@
+{
+  "name": "signature-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Digital agreement signature capture demo (Draw / Type / Upload) with IP, location and timestamp — Cloudflare Worker",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "signature_pad": "^4.1.7"
+  }
+}
